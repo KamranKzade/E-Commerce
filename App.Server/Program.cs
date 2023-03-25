@@ -163,7 +163,6 @@ namespace App.Server
                     }
                     else
                     {
-
                         result = msg.Split('\\');
                         var className = result[0];
                         var methodName = result[1];

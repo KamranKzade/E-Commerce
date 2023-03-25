@@ -5,7 +5,7 @@ using App.Core.DataAccess.EntityFramework;
 
 namespace App.DataAccess.Concrete.EfEntityFramework
 {
-    public   class EfOrderDal : EfEntityRepositoryBase<Order, NorthwindContext>, IOrderDal
+    public class EfOrderDal : EfEntityRepositoryBase<Order, NorthwindContext>, IOrderDal
     {
     }
 }

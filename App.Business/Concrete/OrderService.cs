@@ -10,6 +10,16 @@ namespace App.Business.Concrete
     {
         private IOrderDal _orderDal;
 
+        public OrderService()
+        {
+            _orderDal = new EfOrderDal();
+        }
+
+        public OrderService(IOrderDal orderDal)
+        {
+            _orderDal = orderDal;
+        }
+
         public void Add(Order product)
         {
             _orderDal.Add(product);
