@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Concrete\EfEntityFramework\EfCategoryDal.cs" />
+    <Compile Include="Concrete\EfEntityFramework\EfOrderDal.cs" />
     <Compile Include="Concrete\EfEntityFramework\EfProductDal.cs" />
     <Compile Include="Concrete\EfEntityFramework\NorthwindContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

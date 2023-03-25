@@ -44,6 +44,7 @@
     <Compile Include="Concrete\Cart.cs" />
     <Compile Include="Concrete\CartLine.cs" />
     <Compile Include="Concrete\Category.cs" />
+    <Compile Include="Concrete\Order.cs" />
     <Compile Include="Concrete\Product.cs" />
     <Compile Include="Concrete\ShippingDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

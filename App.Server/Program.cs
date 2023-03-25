@@ -1,13 +1,13 @@
-﻿using App.Business.Concrete;
-using App.Entities.Concrete;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Net;
-using System.Net.Sockets;
-using System.Reflection;
 using System.Text;
+using System.Linq;
+using Newtonsoft.Json;
+using System.Reflection;
+using System.Net.Sockets;
+using App.Entities.Concrete;
+using App.Business.Concrete;
+using System.Collections.Generic;
 
 
 namespace App.Server

@@ -1,7 +1,7 @@
-﻿using App.Core.Entities;
-using System;
-using System.Collections.Generic;
+﻿using System;
+using App.Core.Entities;
 using System.Linq.Expressions;
+using System.Collections.Generic;
 
 namespace App.Core.DataAccess
 {

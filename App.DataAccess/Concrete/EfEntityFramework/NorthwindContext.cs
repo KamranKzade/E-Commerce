@@ -1,5 +1,6 @@
-﻿using App.Entities.Concrete;
-using System.Data.Entity;
+﻿using System.Data.Entity;
+using App.Entities.Concrete;
+
 
 namespace App.DataAccess.Concrete.EfEntityFramework
 {

@@ -1,8 +1,8 @@
-﻿using App.Business.Abstract;
+﻿using App.Entities.Concrete;
+using App.Business.Abstract;
 using App.DataAccess.Abstract;
-using App.DataAccess.Concrete.EfEntityFramework;
-using App.Entities.Concrete;
 using System.Collections.Generic;
+using App.DataAccess.Concrete.EfEntityFramework;
 
 namespace App.Business.Concrete
 {

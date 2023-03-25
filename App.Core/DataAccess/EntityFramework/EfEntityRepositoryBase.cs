@@ -1,9 +1,9 @@
-﻿using App.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System;
 using System.Linq;
+using App.Core.Entities;
+using System.Data.Entity;
 using System.Linq.Expressions;
+using System.Collections.Generic;
 
 namespace App.Core.DataAccess.EntityFramework
 {
